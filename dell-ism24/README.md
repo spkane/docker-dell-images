@@ -20,7 +20,7 @@ Dockerized [iSM](http://en.community.dell.com/techcenter/systems-management/w/wi
 
 ```bash
 $ /usr/sbin/modprobe usb_storage && docker run --privileged -d -P -v /var/log:/var/log --restart=always \
-     --net=host --uts=host --name=dell-ism spkane/dell-ism24:latest
+     --net=host --uts=host --name=dell-ism spkane/dell-ism:latest
 ```
 
 ## Known Issues
